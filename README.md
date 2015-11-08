@@ -1,2 +1,0 @@
-# newAbout
-New About
