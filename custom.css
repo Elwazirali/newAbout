@@ -1,0 +1,327 @@
+.menu {
+  background: #202024 url('http://i.imgur.com/qsIARVp.png');
+  right: -285px;  /* start off behind the scenes */
+  height: 100%;
+  margin-right:0px;
+  position: fixed;
+  z-index:1;
+  background-repeat:none;
+
+}
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.icon-menu {
+    color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-bottom:99.9%;
+  margin-left:90%;
+  position:fixed;
+  z-index:1;
+}
+
+.icon-menu i {
+  margin-left: 5px;
+}
+/*^^^trying out a different menu*/
+.social
+{
+	position:relative;
+	margin-top:50px;
+	margin-left:18px;
+	margin-right:18px;
+	list-style:none; 
+}
+body::-webkit-scrollbar { 
+    display: none; 
+}
+body
+{
+	
+	background: #000000 url(http://i.imgur.com/kk1ZaZr.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    height: auto !important;
+    min-height:100%;
+	background-attachment:fixed;
+	background-color : rgba(222,222,0,0.1);
+}
+.back
+{
+	
+	background: #000000 url(http://i.imgur.com/Xf6Yujv.jpg);
+    background-size: 100% 100%;
+    width: 99%;
+    height: 100%;
+    height: auto !important;
+    min-height:100%;
+	background-attachment:fixed;
+	background-color : rgba(222,222,0,0.1);
+}
+
+#dev
+{
+	margin-top:1.5em;
+	color:white;
+	font-family:'Handlee', serif;
+	margin-left:25%;
+	width:50%;
+
+}
+#developer
+{
+	color:black;
+	font-family:'Handlee';
+}
+.writings
+{
+	color:black;
+	
+	font-family: 'tangerine', serif; /* added a link reference to google fonts... please refer to html code for reference*/
+    font-size: 35px;
+}
+.fa-facebook
+{
+	color:white;
+	
+}
+.fa-instagram
+{
+	color:brown;
+}
+.fa-linkedin
+{
+	color:#7FFFD4
+}
+.fa-book
+{
+	color:#66CCFF;
+}
+.fa-paper-plane
+{
+	color:white;
+}
+.fa-pencil
+{
+	color:#9933FF;
+}
+.fa-code
+{
+	color:#33CC33;
+}
+#name
+{
+	font-family: 'Handlee', serif;
+	margin-bottom:.5em;
+	color:black;
+}
+h3
+{
+	width:10000px;
+}
+h1
+{
+	font-family:'Antic Slab', serif;
+}
+
+#uni
+{
+	color:#FFCC00;
+}
+
+.theButton
+{
+	background-color:rgba(100,100,50,0.7);
+	border-color: rgba(100,100,50,0.7);
+	border-radius:0%;
+	transition:1000ms;
+	
+}
+.theButton:hover
+{
+	background-color:rgba(50,0,50,1);
+	border-color:rgba(50,0,50,1);
+	transition:1000ms;
+}
+.me
+{
+	position:relative;
+	height:15em;
+	width:15em;
+	opacity:0.7;
+	border-radius:100%;
+	border-style:style;
+	border-color:white;
+	border-width:10px;
+}
+
+.title
+{
+	position:relative;
+	color:white;
+	margin-top:1.5em;
+}
+#section1
+{	
+	position:relative;
+	background-color:rgba(100,50,0,0.4);
+
+}
+.modal
+{
+	
+	position:absolute;
+}
+
+.hey
+{
+	transition:1000ms;
+	
+	background-color:black;
+}
+.circle 
+{	
+	
+	width:25em;
+	height:25em;
+	background-color:rgba(0, 0, 30,0.6);
+	z-index:1;
+	border-radius:10em;
+	transition:500ms;
+}
+.circle2
+{
+	width:25em;
+	height:25em;
+	background-color:rgba(0, 255, 153,0.6);
+	z-index:1;
+	transition:500ms;
+	border-radius:100%;
+}
+
+
+#section2
+{
+	position:relative;
+	margin-top:0%;
+	background-color:rgba(0,0,100,0.4);
+
+}
+.btn-group
+{
+	text-align:center;
+	color:red;
+	
+}
+.btn-group >a
+{
+	opacity:0.5;
+	background-color:black;
+	width:10em;
+	height:3em;
+	border-width:2px;
+	border-color:white;
+	color:white;
+	transition:1000ms;
+}
+.btn-group >a:hover
+{
+	border-width:2px;
+	border-color:white;
+	opacity:0.5;
+	background-color:rgba(0,225,0,0.8);
+	font-family:cursive;
+	transition:1000ms;
+	
+}
+.title
+{
+	font-family: 'Handlee';
+}
+.section3
+{
+	
+	position:relative;
+	margin-top:0%;
+	background-color:#E6B85C;
+	opacity:0.8;
+	
+	
+}
+.uniLogo
+{
+	width:30%;
+	position:relative;
+	opacity:1;
+	
+}
+.thePills
+{
+	color:black;
+}
+
+ul.nav-pills 
+{
+    margin-top:0;
+    position: fixed;
+	z-index:1;
+	background-color:#009999;
+	border-radius:10%;
+	margin-left:0.1em;
+	
+	
+	
+ }
+ .nav-pills>li>a
+ {
+	color:black;
+	font-family: 'Handlee', cursive;
+	transition:200ms;
+ }
+ 
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus 
+{ 
+	transition:1000ms;
+	color: white;
+	background-color: #303030;
+	transition:200ms;
+}
+  
+ul.nav-pills :hover
+{
+	transition:1000ms;
+	color: #00FF99;
+	
+}  
+  div.col-sm-9 div {
+      height: 250px;
+      font-size: 28px;
+      margin-top:-25px;
+  }
+  
+
+.jumbotron
+{
+	 background-color:rgba(20,20,20,0.6);
+	 margin-bottom:0;
+	 margin-top:0%;
+	 position:relative;
+	 width:100%;
+	 margin-left:0%;
+	 margin-right:0%;
+}
+
+
