@@ -68,5 +68,11 @@ var main = function() {
   });
 };
 
+var fade = function(){
+	
+	('div').hide();
+	('div').fadeIn('slow');
+};
+$(document).ready(fade);
 $(document).ready(changeCircle);
 $(document).ready(main);
