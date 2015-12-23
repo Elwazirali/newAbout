@@ -243,8 +243,14 @@ h1
 	background-color:rgba(0,225,0,0.8);
 	font-family:cursive;
 	transition:1000ms;
-	
 }
+ .nav-pills>li>a
+ {
+	color:black;
+	font-family: 'Handlee', cursive;
+	transition:200ms;
+	background-color:#009999 !important;
+ }
 .title
 {
 	font-family: 'Handlee';
