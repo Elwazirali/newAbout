@@ -289,7 +289,13 @@ ul.nav-pills
 	font-family: 'Handlee', cursive;
 	transition:200ms;
  }
- 
+ .nav-pills>li>a
+ {
+	color:black;
+	font-family: 'Handlee', cursive;
+	transition:200ms;
+	background-color:#009999 !important;
+ }
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus 
