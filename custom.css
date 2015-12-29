@@ -1,6 +1,6 @@
 .menu {
   background: #202024 url('http://i.imgur.com/qsIARVp.png');
-  right: -285px;  /* start off behind the scenes */
+  right: -285px;  
   height: 100%;
   margin-right:0px;
   position: fixed;
@@ -8,6 +8,9 @@
   background-repeat:none;
 
 }
+
+
+
 .icon-close {
   cursor: pointer;
   padding-left: 10px;
@@ -39,8 +42,16 @@
 	position:relative;
 	margin-top:50px;
 	margin-left:18px;
-	margin-right:18px;
+	margin-right:50px;
 	list-style:none; 
+}
+.fa-github
+{
+	color:black;
+}
+.fa-codepen
+{
+	color:white;
 }
 body::-webkit-scrollbar { 
     display: none; 
@@ -235,6 +246,13 @@ h1
 	color:white;
 	transition:1000ms;
 }
+ .nav-pills>li>a
+ {
+	color:black;
+	font-family: 'Handlee', cursive;
+	transition:200ms;
+	background-color:#009999 !important;
+ }
 .btn-group >a:hover
 {
 	border-width:2px;
@@ -289,13 +307,7 @@ ul.nav-pills
 	font-family: 'Handlee', cursive;
 	transition:200ms;
  }
- .nav-pills>li>a
- {
-	color:black;
-	font-family: 'Handlee', cursive;
-	transition:200ms;
-	background-color:#009999 !important;
- }
+ 
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus 
@@ -303,7 +315,7 @@ ul.nav-pills
 	transition:1000ms;
 	color: white;
 	background-color: #303030;
-	transition:200ms;
+	transition:200ms;	
 }
   
 ul.nav-pills :hover
